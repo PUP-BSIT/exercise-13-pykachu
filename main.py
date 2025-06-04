@@ -1,7 +1,7 @@
 from grouppackage.besa import besa_menu
 from grouppackage.bualat import bualat_mainmenu
 from grouppackage.maestre import maestre_mainmenu
-from grouppackage.salespara import salespara
+from grouppackage.salespara import salespara_menu
 from grouppackage.serquina import serquina_menu 
 
 def main():
@@ -24,7 +24,7 @@ def main():
             case 3:
                 maestre_mainmenu()
             case 4:
-                salespara()
+                salespara_menu()
             case 5:
                 serquina_menu()
             case 6:
