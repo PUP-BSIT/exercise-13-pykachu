@@ -30,7 +30,8 @@ def besa_menu():
                 print("'Everyday you wake up, be better.'\n") 
             case 4: 
                 print("\nComment from Bualat:")
-                # TODO: Add comment from Bualat
+                print("Vince is a great team player and always " 
+                    "brings positive energy to the group.")
             case 5:
                 print("\nComment from Maestre:")
                 # TODO: Add comment from Maestre
