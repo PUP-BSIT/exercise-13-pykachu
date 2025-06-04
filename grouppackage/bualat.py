@@ -31,10 +31,11 @@ def bualat_mainmenu():
                 print("Being kind doesn't cost anything.")
             case 4:
                 print("\nBesa's Comment:")
-                #TODO: add your comment here: Besa
+                print("Bench is a great team player, "
+                    "always ready to help others.")
             case 5:
                 print("\nSerquina's Comment:")
-                #TODO: add your comment here: Serquina
+                print("\nBench always puts in the effort to help the team.")
             case 6:
                 print("\nMaestre's Comment:")
                 print("Bench is a very kind person")
