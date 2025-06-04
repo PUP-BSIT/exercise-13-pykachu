@@ -1,5 +1,10 @@
+import os # Import for clear screen on console
+
 def salespara_menu():
+    # Salespara's program loop
     while True:
+        os.system('cls')  # Clear the console for better readability
+        # Display the menu options
         print("Hello! I am Rica Genevive B. Salespara.\n")
         print("1. Basic Information")
         print("2. Goals")
@@ -10,8 +15,10 @@ def salespara_menu():
         print("7. Comment from Serquina")
         print("8. Exit")
 
+        # Get user input for menu selection
         user_choice = int(input("Select an option (1-8): "))
 
+        # Handle user choice using match-case
         match user_choice:
             case 1:
                 print("\nPersonal Information")
@@ -45,6 +52,10 @@ def salespara_menu():
                 print("\nKeep doing your best, Rica!")
             case 8:
                 print("Program Terminated.")
-                break
+                break # Exit the loop and terminate program
             case _:
+                # Handle invalid inputs
                 print("Invalid option, please try again")
+
+        # Wait for user input before clearing the screen
+        input("\nPress 'Enter' to continue...")
