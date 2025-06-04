@@ -26,10 +26,11 @@ def serquina_menu():
                 # TODO: Add your comment here
             case 5:
                 print("Bualat's comment: ")
-                # TODO: Add your comment here
+                print("Zcintilla is a dedicated team member, "
+                      "always striving to improve her skills.")
             case 6:
                 print("Maestre's comment: ")
-                # TODO: Add your comment here
+                print("Zcintilla is always ready to help her teammates")
             case 7:
                 print("Salespara's comment: ")
                 # TODO: Add Besa's comment here

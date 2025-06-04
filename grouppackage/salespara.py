@@ -34,10 +34,11 @@ def salespara():
                 # TODO : Add comment from Besa
             case 5:
                 print("\nComment from Bualat: ")
-                # TODO : Add comment from Bualat
+                print("Rica is a hardworking and dedicated team member, "
+                      "always striving to improve her skills.")
             case 6:
                 print("\nComment from Maestre: ")
-                # TODO : Add comment from Maestre
+                print("Rica is a very creative person")
             case 7:
                 print("\nComment from Serquina: ")
                 # TODO : Add comment from Serquina
