@@ -37,7 +37,8 @@ def maestre_mainmenu():
                 #TODO: add your comment here: Serquina
             case 6:
                 print("\nBualat's Comment:")
-                #TODO: add your comment here: Bualat
+                print("Michael you are very religious, "
+                        "and I respect that.")
             case 7:
                 print("\nSalespara's Comment:")
                 #TODO: add your comment here: Salespara
