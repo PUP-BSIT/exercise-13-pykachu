@@ -34,7 +34,7 @@ def besa_menu():
                     "brings positive energy to the group.")
             case 5:
                 print("\nComment from Maestre:")
-                # TODO: Add comment from Maestre
+                print("Vince is a dedicated and hardworking individual.")
             case 6:
                 print("\nComment from Salespara:")
                 # TODO: Add comment from Salespara
