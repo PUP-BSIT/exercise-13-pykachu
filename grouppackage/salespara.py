@@ -43,7 +43,7 @@ def salespara():
                 print("\nComment from Serquina: ")
                 # TODO : Add comment from Serquina
             case 8:
-                print("")
+                print("Program Terminated.")
                 break
             case _:
                 print("Invalid option, please try again")

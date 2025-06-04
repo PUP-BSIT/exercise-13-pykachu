@@ -40,7 +40,7 @@ def bualat_mainmenu():
                 print("Bench is a very kind person")
             case 7:
                 print("\nSalespara's Comment:")
-                #TODO: add your comment here: Salespara
+                print("Best of luck in reaching your goals, Bench!")
             case 8:
                 break
             case _:
