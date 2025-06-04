@@ -34,14 +34,14 @@ def maestre_mainmenu():
                 #TODO: add your comment here: Besa
             case 5:
                 print("\nSerquina's Comment:")
-                #TODO: add your comment here: Serquina
+                print("Always do your best, Michael!")
             case 6:
                 print("\nBualat's Comment:")
                 print("Michael you are very religious, "
                         "and I respect that.")
             case 7:
                 print("\nSalespara's Comment:")
-                #TODO: add your comment here: Salespara
+                print("Best of luck in reaching your goals, Michael!")
             case 8:
                 break
             case _:

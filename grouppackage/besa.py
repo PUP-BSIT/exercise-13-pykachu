@@ -37,10 +37,10 @@ def besa_menu():
                 print("Vince is a dedicated and hardworking individual.")
             case 6:
                 print("\nComment from Salespara:")
-                # TODO: Add comment from Salespara
+                print("Best of luck in reaching your goals, Vince!")
             case 7:
                 print("\nComment from Serquina:")
-                # TODO: Add comment from Serquina
+                print("\nVince is a reliable team member.")
             case 8: 
                 print("Program Terminated.")
                 break

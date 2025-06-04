@@ -33,7 +33,7 @@ def serquina_menu():
                 print("Zcintilla is always ready to help her teammates")
             case 7:
                 print("Salespara's comment: ")
-                # TODO: Add Besa's comment here
+                print("Best of luck in reaching your goals, Zcintilla!")
             case 8:
                 break
             case _:
