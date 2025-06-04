@@ -38,7 +38,7 @@ def salespara():
                       "always striving to improve her skills.")
             case 6:
                 print("\nComment from Maestre: ")
-                # TODO : Add comment from Maestre
+                print("Rica is a very creative person")
             case 7:
                 print("\nComment from Serquina: ")
                 # TODO : Add comment from Serquina
