@@ -15,7 +15,7 @@ def bualat_mainmenu():
 
         match user_choice:
             case 1:
-                print("\nI am Bench Brian Bualat, " \
+                print("\nI am Bench Brian Bualat, "
                     "a member of the team, PyKachu.")
                 print("I am 20 years old.")
                 print("I am from the Philippines.")
