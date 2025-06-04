@@ -31,7 +31,8 @@ def maestre_mainmenu():
                     "the one who gives me power.\n")
             case 4:
                 print("\nBesa's Comment:")
-                #TODO: add your comment here: Besa
+                print("Michael is a very dedicated and hardworking "
+                    "individual, always striving to improve himself.")
             case 5:
                 print("\nSerquina's Comment:")
                 print("Always do your best, Michael!")
