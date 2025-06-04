@@ -1,5 +1,10 @@
+import os # Import for clear screen on console
+
 def besa_menu():
+    # Besa's program loop
     while True: 
+        os.system('cls')  # Clear the console for better readability
+        # Display the menu options
         print("\nGreetings! I am Vince Adrian Besa.\n")
         print("1. Basic Information")
         print("2. Goals")
@@ -10,8 +15,10 @@ def besa_menu():
         print("7. Comment from Serquina")
         print("8. Exit")
 
+        # Get user input for menu selection
         choice = int(input("\nSelect an option (1-8): "))
 
+        # Handle user choice using match-case
         match choice:
             case 1:
                 print("\nBasic Information:")
@@ -42,7 +49,11 @@ def besa_menu():
                 print("\nComment from Serquina:")
                 print("\nVince is a reliable team member.")
             case 8: 
-                print("Program Terminated.")
-                break
+                print("\nProgram Terminated.")
+                break # Exit the loop and terminate program
             case _:
-                print("Invalid choice. Please select a valid option (1-8).")
+                # Handle invalid inputs
+                print("\nInvalid choice. Please select a valid option (1-8).")
+
+        # Wait for user input before clearing the screen
+        input("\nPress 'Enter' to continue...")

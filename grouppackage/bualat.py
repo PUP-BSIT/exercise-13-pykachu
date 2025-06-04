@@ -1,5 +1,10 @@
+import os # Import for clear screen on console
+
 def bualat_mainmenu():
+    # Bualat's program loop
     while True:
+        os.system('cls')  # Clear the console for better readability
+        # Display the menu options
         print("\nWelcome to Bualat's menu!")
         print("Please select an option to learn more about me:")
         print ("1. Basic Information")
@@ -11,8 +16,10 @@ def bualat_mainmenu():
         print ("7. Comment from Salespara")
         print ("8. Exit")
 
+        # Get user input for menu selection
         user_choice = int(input("Select an option (1-8): "))
 
+        # Handle user choice using match-case
         match user_choice:
             case 1:
                 print("\nI am Bench Brian Bualat, "
@@ -43,6 +50,10 @@ def bualat_mainmenu():
                 print("\nSalespara's Comment:")
                 print("Best of luck in reaching your goals, Bench!")
             case 8:
-                break
+                break # Exit the loop and terminate program
             case _:
+                # Handle invalid inputs
                 print("\nInvalid option, please try again")
+
+        # Wait for user input before clearing the screen
+        input("\nPress 'Enter' to continue...")

@@ -1,5 +1,10 @@
+import os # Import for clear screen on console
+
 def serquina_menu():
+    # Serquina's program loop
     while True:
+        os.system('cls')  # Clear the console for better readability
+        # Display the menu options
         print("\nHello, I'm Zcintilla R. Serquina.")
         print("1. Basic Info")
         print("2. Goals")
@@ -9,8 +14,10 @@ def serquina_menu():
         print("5. Comment from Maestre")
         print("6. Comment from Salespara")
         print("7. Exit")
+        # Get user input for menu selection
         choice = int(input("Please choose an option: "))
 
+        # Handle user choice using match-case
         match choice: 
             case 1:
               print("Age: 20 years old")
@@ -36,6 +43,10 @@ def serquina_menu():
                 print("Salespara's comment: ")
                 print("Best of luck in reaching your goals, Zcintilla!")
             case 8:
-                break
+                break # Exit the loop and terminate program
             case _:
+                # Handle invalid inputs
                 print("Invalid choice! Please try again.")
+
+        # Wait for user input before clearing the screen
+        input("\nPress 'Enter' to continue...")
