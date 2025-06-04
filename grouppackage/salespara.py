@@ -31,19 +31,20 @@ def salespara():
                 print("3. Never stop learning.")
             case 4:
                 print("\nComment from Besa: ")
-                # TODO : Add comment from Besa
+                print("Rica is a very talented and creative individual, "
+                      "always bringing fresh ideas to the team.")
             case 5:
                 print("\nComment from Bualat: ")
                 print("Rica is a hardworking and dedicated team member, "
                       "always striving to improve her skills.")
             case 6:
                 print("\nComment from Maestre: ")
-                # TODO : Add comment from Maestre
+                print("Rica is a very creative person")
             case 7:
                 print("\nComment from Serquina: ")
-                # TODO : Add comment from Serquina
+                print("\nKeep doing your best, Rica!")
             case 8:
-                print("")
+                print("Program Terminated.")
                 break
             case _:
                 print("Invalid option, please try again")

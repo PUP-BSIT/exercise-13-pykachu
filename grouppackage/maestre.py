@@ -15,13 +15,13 @@ def maestre_mainmenu():
 
         match user_choice:
             case 1:
-                print("\Name: Michael Rua Solis Maestre")
+                print("\nName: Michael Rua Solis Maestre")
                 print("Program & Year: BSIT 2-1")
                 print("Age: 20 years old")
                 print("Birthday: November 22, 2004")
                 print("Address: Block 78 Lot 18 Upper Bicutan Taguig City")
             case 2:
-                print("\nMy goal in life:")
+                print("\nMy goals in life:")
                 print("I want to have a job that love and enjoy.")
                 print("I want improve my skills in programming")
                 print("I want to become a full servant of Jehovah God.")
@@ -31,17 +31,18 @@ def maestre_mainmenu():
                     "the one who gives me power.\n")
             case 4:
                 print("\nBesa's Comment:")
-                #TODO: add your comment here: Besa
+                print("Michael is a very dedicated and hardworking "
+                    "individual, always striving to improve himself.")
             case 5:
                 print("\nSerquina's Comment:")
-                #TODO: add your comment here: Serquina
+                print("Always do your best, Michael!")
             case 6:
                 print("\nBualat's Comment:")
                 print("Michael you are very religious, "
                         "and I respect that.")
             case 7:
                 print("\nSalespara's Comment:")
-                #TODO: add your comment here: Salespara
+                print("Best of luck in reaching your goals, Michael!")
             case 8:
                 break
             case _:

@@ -23,17 +23,18 @@ def serquina_menu():
                 print("Remember why you started, and never give up.")
             case 4:
                 print("Besa's comment: ")
-                # TODO: Add your comment here
+                print("Zcintilla is a very creative and talented individual, "
+                      "always bringing fresh ideas to the team.")
             case 5:
                 print("Bualat's comment: ")
                 print("Zcintilla is a dedicated team member, "
                       "always striving to improve her skills.")
             case 6:
                 print("Maestre's comment: ")
-                # TODO: Add your comment here
+                print("Zcintilla is always ready to help her teammates")
             case 7:
                 print("Salespara's comment: ")
-                # TODO: Add Besa's comment here
+                print("Best of luck in reaching your goals, Zcintilla!")
             case 8:
                 break
             case _:
