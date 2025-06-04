@@ -40,7 +40,7 @@ def besa_menu():
                 print("Best of luck in reaching your goals, Vince!")
             case 7:
                 print("\nComment from Serquina:")
-                # TODO: Add comment from Serquina
+                print("\nVince is a reliable team member.")
             case 8: 
                 print("Program Terminated.")
                 break
