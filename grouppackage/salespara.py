@@ -1,4 +1,4 @@
-def salespara():
+def salespara_menu():
     while True:
         print("Hello! I am Rica Genevive B. Salespara.\n")
         print("1. Basic Information")
