@@ -31,7 +31,8 @@ def salespara():
                 print("3. Never stop learning.")
             case 4:
                 print("\nComment from Besa: ")
-                # TODO : Add comment from Besa
+                print("Rica is a very talented and creative individual, "
+                      "always bringing fresh ideas to the team.")
             case 5:
                 print("\nComment from Bualat: ")
                 print("Rica is a hardworking and dedicated team member, "
