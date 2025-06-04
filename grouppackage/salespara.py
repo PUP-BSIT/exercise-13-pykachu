@@ -10,7 +10,7 @@ def salespara():
         print("7. Comment from Serquina")
         print("8. Exit")
 
-        user_choice = int(input("Select an option (1 -8): "))
+        user_choice = int(input("Select an option (1-8): "))
 
         match user_choice:
             case 1:
