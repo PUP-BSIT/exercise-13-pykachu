@@ -41,7 +41,7 @@ def maestre_mainmenu():
                         "and I respect that.")
             case 7:
                 print("\nSalespara's Comment:")
-                #TODO: add your comment here: Salespara
+                print("Best of luck in reaching your goals, Michael!")
             case 8:
                 break
             case _:
