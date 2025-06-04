@@ -1,6 +1,5 @@
 def besa_menu():
     while True: 
-
         print("\nGreetings! I am Vince Adrian Besa.\n")
         print("1. Basic Information")
         print("2. Goals")
